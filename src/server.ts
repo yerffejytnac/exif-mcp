@@ -13,7 +13,7 @@ async function main() {
     const server = new McpServer({ 
       name: 'exif-mcp', 
       version: '1.0.0',
-      description: 'Extract image metadata using exifr'
+      title: 'Extract image metadata using exifr'
     });
     
     // Register all tools
